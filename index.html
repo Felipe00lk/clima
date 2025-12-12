@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌤️ Clima Agora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Clima Agora</h1>
+    <p class="subtitle">Veja o clima da sua cidade em tempo real</p>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Digite sua cidade..." />
+      <button id="searchBtn">🔍</button>
+    </div>
+
+    <div id="weatherBox" class="weather hidden">
+      <h2 id="cityName"></h2>
+      <img id="icon" />
+      <h3 id="temp"></h3>
+      <p id="desc"></p>
+    </div>
+
+    <p class="error" id="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
